@@ -93,7 +93,7 @@
 //     }
 //   }
 
-//   return Math.max(...lengths, acc);
+//   return Math.max(...lengths, acc)
 // }
 
 // 外侧循环 O(n)，内侧循环O(n)，考虑极端情况 [1, 2, 3, 4] 为 n - 1 + n => 2n - 1
