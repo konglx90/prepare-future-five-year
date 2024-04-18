@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "typescript": "^5.3.3"
+  },
+  "name": "outofhere",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "updateSnapshot": "jest -- -u",
+    "one00": "npx tsc one00/${npm_config_file}.ts && node one00/${npm_config_file}.js"
+  },
+  "repository": "git@code.alipay.com:cattery/aicr-demo.git"
+}
